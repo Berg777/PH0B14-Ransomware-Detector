@@ -120,11 +120,11 @@ def Inicio():
             def on_modified(self, event):
                 print(event.src_path, 'Modificado')
                 lista.append(event.src_path)
-                if len(lista) > 2:
+                if len(lista) > 200:
                     stop = time.time()
                     b = start - stop
                     if b < 10:
-                        # Se 1000 arquivos forem modificados em menos de 10 segundos o programa detecta que é um ransomware.
+                        # Se 200 arquivos forem modificados em menos de 10 segundos o programa detecta que é um ransomware.
                         print('Possivel Ransomware Detectado!!!!')
                         
                         # Notificação no sistema quando detectar
