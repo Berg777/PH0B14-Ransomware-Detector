@@ -1,1 +1,1 @@
-# PH0B14-Ransomware-Detector
+# PH0B14 Ransomware Detector
