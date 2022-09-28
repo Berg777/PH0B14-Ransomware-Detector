@@ -149,7 +149,7 @@ def Inicio():
                                 except (psutil.NoSuchProcess, psutil.AccessDenied , psutil.ZombieProcess) :
                                     pass
                             return listOfProcessObjects;
-                        listOfProcessIds = findProcessIdByName('msedge.exe')
+                        listOfProcessIds = findProcessIdByName('')
                         if len(listOfProcessIds) > 0:
                             for elem in listOfProcessIds:
                                 processID = elem['pid']
