@@ -12,7 +12,7 @@ root = Tk()
 root.title('Obeservador - Ph0b14')
 
 # Caminho do ícone
-root.iconbitmap(r'C:\Users\Berg\Documents\Projetos vscode\Python Projects\Phobia Detector\phobia.ico')
+root.iconbitmap('phobia.ico')
 root.geometry("950x650")
 bg = PhotoImage(file='Challenge.png')
 root.resizable(0,0)
